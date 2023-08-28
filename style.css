@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141213;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bheader {
+    height: 70px;
+    background-color: black;
+    border-top: 5px solid #27dd29;
+    border-bottom: 5px solid #27dd29;
+}
+
+.header {
+    height: 60px;
+    margin: 5px auto;
+}
+
+.slogan {
+    float: left;
+    width: 135px;
+    height: 60px;
+}
+
+.ybc {
+    width: 100px;
+    height: 60px;
+}
+
+.nav {
+    float: left;
+    margin-left: 300px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+.location {
+    float: left;
+    width: 14px;
+    height: 20px;
+    margin: 20px 5px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 60px;
+    padding: 0 20px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #27dd29;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: #2d292b;
+}
+
+.user {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+}
+
+.bbboy {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.userid {
+    float: left;
+    line-height: 60px;
+    color: #27dd29;
+    font-size: 20px;
+}
+
+.sheader {
+    height: 60px;
+    margin: 10px auto;
+}
+
+.vslogo {
+    float: left;
+    width: 174px;
+    height: 60px;
+}
+
+.search {
+    float: left;
+    width: 800px;
+    height: 60px;
+    margin-left: 100px;
+}
+
+.search input {
+    float: left;
+    width: 550px;
+    height: 54px;
+    border: 3px solid #27dd29;
+    border-right: 0;
+    outline: none;
+    color: #27dd29;
+    font-size: 20px;
+    padding-left: 50px;
+    background-color: #141213;
+}
+
+.search input::-webkit-input-placeholder {
+    color: #27dd29;
+}
+
+.search button {
+    float: left;
+    width: 100px;
+    height: 60px;
+    border: 3px solid #27dd29;
+    background-color: #27dd29;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.banner {
+    height: 360px;
+    background-color: #141213;
+}
+
+.subnav {
+    float: left;
+    width: 260px;
+    height: 360px;
+    background-color: black;
+    margin-right: 10px;
+}
+
+.subnav ul li {
+    height: 60px;
+    padding: 0 20px;
+    color: #27dd29;
+    font-size: 25px;
+}
+
+.subnav ul li a {
+    font-size: 25px;
+    color: #27dd29;
+    line-height: 60px;
+}
+
+.subnav ul li span {
+    float: right;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.subnav ul li a:hover {
+    color: yellow;
+}
+
+.bigadv {
+    display: block;
+    float: left;
+    width: 810px;
+    height: 360px;
+    background-color: black;
+}
+
+.bigadv img {
+    margin: 10px 10px;
+}
+
+.smalladv {
+    display: block;
+    float: left;
+    width: 110px;
+    height: 340px;
+    background-color: black;
+    padding: 10px 10px;
+    padding-left: 0;
+}
+
+.smalladv ul li {
+    float: left;
+    width: 110px;
+    height: 110px;
+    margin-bottom: 5px;
+}
+
+.seckill {
+    width: 1200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.countdown {
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color: #0d1c0d;
+}
+
+.xsms {
+    display: block;
+    float: left;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    color: #27dd29;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.xsmsimg {
+    display: block;
+    float: left;
+    width: 200px;
+    margin: 10px 75px;
+}
+
+.time {
+    float: left;
+    width: 200px;
+    margin: 0 40px;
+}
+
+.time .number {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.time .mh {
+    float: left;
+    width: 15px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+}
+.countdownbox {
+    float: left;
+    width: 1000px;
+    height: 200px;
+    background-color: black;
+}
+.countdownbox .jiantou {
+    float: left;
+    width: 50px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 50px;
+    font-weight: 700px;
+    color: #27dd29;
+}
+.countdownbox ul li {
+    float: left;
+    width: 156px;
+    height: 180px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border-right:5px solid #27dd29;
+}
+.countdownbox ul .last {
+    border-right: 0;
+}
+.countdownbox ul li img {
+    width: 156px;
+    height: 180px;
+}
+.sbgg {
+    width: 480px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 360px;
+    padding-right: 360px;
+}
+.sbgg div {
+    float: left;
+    width: 220px;
+    line-height: 40px;
+}
+.sbgg .yuan1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    background-color: #27dd29;
+}
+.sbgg .yuan2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px 10px;
+    background-color: #27dd29;
+}
+.sbgg .yuan3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #27dd29;
+}
+.sbgg .word {
+    width: 200px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #27dd29;
+    text-align: center;
+}
+.goods {
+    width: 1200px;
+    background-color: black;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.goods>div {
+    float: left;
+    width: 280px;
+    height: 380px;
+    margin: 10px 10px;
+    background-color: #2d292b;
+    border-radius: 5px;
+}
+.goods div ul li {
+    float: left;
+}
+.goods div ul .goodsimg a {
+    width: 280px;
+    height: 260px;
+}
+.goods div ul .goodsms a:link {
+    color:#27dd29;}
+.goods div ul .goodsms a:visited {
+    color:#27dd29;
+}
+.goods div ul .goodsms a:hover {
+    color:yellow;
+}
+
+.goods div ul li img {
+    width: 260px;
+    height: 240px;
+    padding: 10px;
+}
+.goods div ul .goodsms {
+    width: 260px;
+    height: 60px;
+    margin: 0 10px;
+    color: #27dd29;
+    font-size: 25px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.goods div ul .price {
+    width: 260px;
+    height: 60px;
+    margin: 0 10px;
+    color: #27dd29;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
